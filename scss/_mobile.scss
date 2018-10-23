@@ -10,6 +10,7 @@
 
 // Tablets & Small Laptops 
 @include mediaMd {
+    // Home
     main {
         align-items: center;
         text-align: center;
@@ -47,10 +48,24 @@
             height: 150px;
         }
     }
+
+    // About Us
+    .about-info {
+        grid-template-areas:
+        'bioimage'
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+
+        grid-template-columns: 1fr;
+
+    }
 }
 
 // Smartphones
 @include mediaSm {
+    // Home
     main#home h1 {
         margin-top: 10vh;
     }
