@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/meo.jpg");
+      background: url("../img/avt.jpg");
       background-position: center;
       background-size: cover;
       border-radius: 50%;
@@ -170,12 +170,16 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #eece1a 3px solid;
+    width: 256px;
+    height: 256px; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
   .about-info .job-1 {
     grid-area: job1; }
+  .about-info .job h3, .about-info .job h6 {
+    font-size: 16px; }
   .about-info .job-2 {
     grid-area: job2; }
   .about-info .job-3 {

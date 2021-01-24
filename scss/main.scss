@@ -90,17 +90,24 @@ main {
         margin: auto;
         border-radius: 50%;
         border: $secondary-color 3px solid;
+        width: 256px;
+        height: 256px;
     }
     
     .bio {
         grid-area: bio;
         font-size: 1.5rem;
+       
     }
     
     .job-1 {
         grid-area: job1;
     }
-    
+    .job {
+        h3, h6 {
+            font-size: 16px;
+        }
+    }
     .job-2 {
         grid-area: job2;
     }
